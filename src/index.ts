@@ -1,7 +1,7 @@
-import { StoreProvider, StoreContext } from './StoreProvider'
+import { StoreProvider, createStoreContext } from './StoreProvider'
 
 
 export {
-  StoreContext,
+  createStoreContext,
   StoreProvider
 }
